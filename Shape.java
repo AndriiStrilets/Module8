@@ -1,6 +1,5 @@
 public class Shape {
-
-    public void printName(){
+    void printName() {
     }
 }
 

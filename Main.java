@@ -1,19 +1,12 @@
 public class Main {
+
     public static void main(String[] args) {
-        Shape circle = new Circle();
-        circle.printName();
 
-        Shape quad = new Quad();
-        quad.printName();
-        
-        Shape rectangle = new Rectangle();
-        rectangle.printName();
+        Shape shape = new Shape();
 
-        Shape square = new Square();
-        square.printName();
+        ShapePrinter printer = new ShapePrinter();
+        printer.printShapeName(shape);
 
-        Shape triangle = new Triangle();
-        triangle.printName();
-
+        }
     }
-}
+
